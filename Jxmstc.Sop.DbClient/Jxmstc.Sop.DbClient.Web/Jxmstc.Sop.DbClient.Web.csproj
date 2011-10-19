@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CE7E23D1-C097-4892-A502-AD20C8D4EC25}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Jxmstc.Sop.DbClient.Web</RootNamespace>
+    <AssemblyName>Jxmstc.Sop.DbClient.Web</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.10618.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
+    <Reference Include="AjaxPro, Version=6.5.17.1, Culture=neutral, PublicKeyToken=4735ae9824c7d3ec" />
+    <Reference Include="MagicAjax, Version=0.3.0.0, Culture=neutral, PublicKeyToken=bf4053b35db106f3, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=5.0.8.1, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="Trirand.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=e2819dc449af3295, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="BaseUnit\BackupDataBase.aspx" />
+    <Content Include="BaseUnit\BackupError.htm" />
+    <Content Include="BaseUnit\ManageTable.aspx" />
+    <Content Include="BaseUnit\ViewDataInTable.aspx" />
+    <Content Include="center.html" />
+    <Content Include="codePress\codepress.css" />
+    <Content Include="codePress\codepress.html" />
+    <Content Include="codePress\codepress.js" />
+    <Content Include="codePress\engines\gecko.js" />
+    <Content Include="codePress\engines\khtml.js" />
+    <Content Include="codePress\engines\msie.js" />
+    <Content Include="codePress\engines\older.js" />
+    <Content Include="codePress\engines\opera.js" />
+    <Content Include="codePress\images\line-numbers.png" />
+    <Content Include="codePress\languages\sql.css" />
+    <Content Include="codePress\languages\sql.js" />
+    <Content Include="css\body.jpg" />
+    <Content Include="css\Common.css" />
+    <Content Include="css\head.jpg" />
+    <Content Include="css\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="css\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="css\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="css\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="css\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="css\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="css\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="css\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="css\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="css\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="css\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="css\img.jpg" />
+    <Content Include="css\jquery-ui-1.7.1.custom.css" />
+    <Content Include="css\s.gif" />
+    <Content Include="css\skin1\child.gif" />
+    <Content Include="css\skin1\closed.gif" />
+    <Content Include="css\skin1\opened.gif" />
+    <Content Include="css\skin2\child.gif" />
+    <Content Include="css\skin2\closed.gif" />
+    <Content Include="css\skin2\opened.gif" />
+    <Content Include="JavaScript\JQEditor.js" />
+    <Content Include="JavaScript\loading.gif" />
+    <Content Include="JavaScript\tab.png" />
+    <Content Include="JavaScript\themes\skin3\child.gif" />
+    <Content Include="JavaScript\themes\skin3\closed.gif" />
+    <Content Include="JavaScript\themes\skin3\opened.gif" />
+    <Content Include="css\skin4\child.gif" />
+    <Content Include="css\skin4\closed.gif" />
+    <Content Include="css\skin4\opened.gif" />
+    <Content Include="JavaScript\themes\apple\bg.jpg" />
+    <Content Include="JavaScript\themes\apple\folder.png" />
+    <Content Include="JavaScript\themes\apple\minus.gif" />
+    <Content Include="JavaScript\themes\apple\minus_rtl.gif" />
+    <Content Include="JavaScript\themes\apple\plus.gif" />
+    <Content Include="JavaScript\themes\apple\plus_rtl.gif" />
+    <Content Include="JavaScript\themes\apple\style.css" />
+    <Content Include="JavaScript\themes\checkbox\change.js" />
+    <Content Include="JavaScript\themes\checkbox\check_0.png" />
+    <Content Include="JavaScript\themes\checkbox\check_1.png" />
+    <Content Include="JavaScript\themes\checkbox\check_2.png" />
+    <Content Include="JavaScript\themes\checkbox\readme.txt" />
+    <Content Include="JavaScript\themes\checkbox\style.css" />
+    <Content Include="JavaScript\themes\classic\folder.gif" />
+    <Content Include="JavaScript\themes\classic\folderopen.gif" />
+    <Content Include="JavaScript\themes\classic\minus.gif" />
+    <Content Include="JavaScript\themes\classic\plus.gif" />
+    <Content Include="JavaScript\themes\classic\style.css" />
+    <Content Include="JavaScript\themes\default\context.gif" />
+    <Content Include="JavaScript\themes\default\create.png" />
+    <Content Include="JavaScript\themes\default\dot.gif" />
+    <Content Include="JavaScript\themes\default\f.png" />
+    <Content Include="JavaScript\themes\default\fminus.gif" />
+    <Content Include="JavaScript\themes\default\fminus_rtl.gif" />
+    <Content Include="JavaScript\themes\default\fplus.gif" />
+    <Content Include="JavaScript\themes\default\fplus_rtl.gif" />
+    <Content Include="JavaScript\themes\default\lastli.gif" />
+    <Content Include="JavaScript\themes\default\lastli_rtl.gif" />
+    <Content Include="JavaScript\themes\default\li.gif" />
+    <Content Include="JavaScript\themes\default\remove.png" />
+    <Content Include="JavaScript\themes\default\rename.png" />
+    <Content Include="JavaScript\themes\default\style.css" />
+    <Content Include="JavaScript\themes\default\throbber.gif" />
+    <Content Include="JavaScript\themes\marker.gif" />
+    <Content Include="JavaScript\themes\marker_rtl.gif" />
+    <Content Include="JavaScript\themes\plus.gif" />
+    <Content Include="JavaScript\themes\remove.png" />
+    <Content Include="JavaScript\themes\themeroller\dot.gif" />
+    <Content Include="JavaScript\themes\themeroller\fminus.gif" />
+    <Content Include="JavaScript\themes\themeroller\fminus_rtl.gif" />
+    <Content Include="JavaScript\themes\themeroller\fplus.gif" />
+    <Content Include="JavaScript\themes\themeroller\fplus_rtl.gif" />
+    <Content Include="JavaScript\themes\themeroller\lastli.gif" />
+    <Content Include="JavaScript\themes\themeroller\lastli_rtl.gif" />
+    <Content Include="JavaScript\themes\themeroller\li.gif" />
+    <Content Include="JavaScript\themes\themeroller\style.css" />
+    <Content Include="css\ui.jqgrid.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="down.html" />
+    <Content Include="execSql.aspx" />
+    <Content Include="images\11.gif" />
+    <Content Include="images\back.gif" />
+    <Content Include="images\first.gif" />
+    <Content Include="images\go.gif" />
+    <Content Include="images\home.gif" />
+    <Content Include="images\last.gif" />
+    <Content Include="images\main_01.gif" />
+    <Content Include="images\main_03.gif" />
+    <Content Include="images\main_05.gif" />
+    <Content Include="images\main_07.gif" />
+    <Content Include="images\main_08.gif" />
+    <Content Include="images\main_09.gif" />
+    <Content Include="images\main_11.gif" />
+    <Content Include="images\main_12.gif" />
+    <Content Include="images\main_16.gif" />
+    <Content Include="images\main_18.gif" />
+    <Content Include="images\main_18_1.gif" />
+    <Content Include="images\main_20.gif" />
+    <Content Include="images\main_24.gif" />
+    <Content Include="images\main_25.gif" />
+    <Content Include="images\main_27.gif" />
+    <Content Include="images\next.gif" />
+    <Content Include="images\quit.gif" />
+    <Content Include="images\uesr.gif" />
+    <Content Include="image\btnhelp.gif" />
+    <Content Include="image\btn_back.gif" />
+    <Content Include="image\btn_delete.gif" />
+    <Content Include="image\btn_deltable.gif" />
+    <Content Include="image\btn_message.gif" />
+    <Content Include="image\btn_newtable.gif" />
+    <Content Include="image\btn_open.gif" />
+    <Content Include="image\btn_table.gif" />
+    <Content Include="image\col_add.gif" />
+    <Content Include="image\col_del.gif" />
+    <Content Include="image\content.jpg" />
+    <Content Include="image\Error_bg.gif" />
+    <Content Include="image\FishMenu\4.png" />
+    <Content Include="image\FishMenu\7.png" />
+    <Content Include="image\FishMenu\8.png" />
+    <Content Include="image\FishMenu\9.png" />
+    <Content Include="image\FishMenu\b.gif" />
+    <Content Include="image\jt.gif" />
+    <Content Include="image\kuan1__01.gif" />
+    <Content Include="image\kuan1__02.gif" />
+    <Content Include="image\kuan1__04.gif" />
+    <Content Include="image\kuan1__05.gif" />
+    <Content Include="image\sqltools_01.gif" />
+    <Content Include="image\sqltools_03.gif" />
+    <Content Include="image\sqltools_05.gif" />
+    <Content Include="image\sqltools_06.gif" />
+    <Content Include="image\sqltools_08.gif" />
+    <Content Include="image\sqltools_11.gif" />
+    <Content Include="image\sqltools_13.gif" />
+    <Content Include="image\sqlvtools_01.gif" />
+    <Content Include="image\systitle.gif" />
+    <Content Include="image\Tab-images\arrow.gif" />
+    <Content Include="image\Tab-images\boxBottom.gif" />
+    <Content Include="image\Tab-images\boxBottom.png" />
+    <Content Include="image\Tab-images\boxTop.gif" />
+    <Content Include="image\Tab-images\boxTop.png" />
+    <Content Include="image\Tab-images\tabComment.gif" />
+    <Content Include="image\Tab-images\tabStar.gif" />
+    <Content Include="JavaScript\css.js" />
+    <Content Include="JavaScript\grid.locale-en.js" />
+    <Content Include="JavaScript\jquery-1.3.2-vsdoc-CN.js" />
+    <Content Include="JavaScript\jquery-1.3.2.min.js" />
+    <Content Include="JavaScript\jquery.autocomplete.css" />
+    <Content Include="JavaScript\jquery.autocomplete.js" />
+    <Content Include="JavaScript\jquery.jqGrid.min.js" />
+    <Content Include="JavaScript\jquery.js" />
+    <Content Include="JavaScript\jquery.layout.js" />
+    <Content Include="JavaScript\Tree.js" />
+    <Content Include="JavaScript\tree_component.css" />
+    <Content Include="JavaScript\tree_component.js" />
+    <Content Include="JavaScript\ui.core.js" />
+    <Content Include="JavaScript\ui.tabs.css" />
+    <Content Include="JavaScript\ui.tabs.js" />
+    <Content Include="left.html" />
+    <Content Include="LeftTree.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Error.htm" />
+    <Content Include="main.html" />
+    <Content Include="top.html" />
+    <Content Include="UserControl\List.ascx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUnit\BackupDataBase.aspx.cs">
+      <DependentUpon>BackupDataBase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaseUnit\BackupDataBase.aspx.designer.cs">
+      <DependentUpon>BackupDataBase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUnit\ManageTable.aspx.cs">
+      <DependentUpon>ManageTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaseUnit\ManageTable.aspx.designer.cs">
+      <DependentUpon>ManageTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUnit\ViewDataInTable.aspx.cs">
+      <DependentUpon>ViewDataInTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaseUnit\ViewDataInTable.aspx.designer.cs">
+      <DependentUpon>ViewDataInTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\InfoToJson.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="execSql.aspx.cs">
+      <DependentUpon>execSql.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="execSql.aspx.designer.cs">
+      <DependentUpon>execSql.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeftTree.aspx.cs">
+      <DependentUpon>LeftTree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeftTree.aspx.designer.cs">
+      <DependentUpon>LeftTree.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControl\List.ascx.cs">
+      <DependentUpon>List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\List.ascx.designer.cs">
+      <DependentUpon>List.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jxmstc.Sop.DbClient.BLL\Jxmstc.Sop.DbClient.BLL.csproj">
+      <Project>{39AF87A7-7C7D-4F59-A519-690CF279F69F}</Project>
+      <Name>Jxmstc.Sop.DbClient.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jxmstc.Sop.DbClient.Model\Jxmstc.Sop.DbClient.Model.csproj">
+      <Project>{3DF501B1-08E1-4DF4-80BB-1FCA1611A369}</Project>
+      <Name>Jxmstc.Sop.DbClient.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jxmstc.Sop.DbClient.mysqlDAL\Jxmstc.Sop.DbClient.mysqlDAL.csproj">
+      <Project>{4495A781-0613-4821-9061-533CB37FA74B}</Project>
+      <Name>Jxmstc.Sop.DbClient.mysqlDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jxmstc.Sop.DbClient.sqlserverDAL\Jxmstc.Sop.DbClient.sqlserverDAL.csproj">
+      <Project>{4BA70B6F-637F-4DA0-88F7-E2FE60085D20}</Project>
+      <Name>Jxmstc.Sop.DbClient.sqlserverDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jxmstc.Sop.DbClient.Utility\Jxmstc.Sop.DbClient.Utility.csproj">
+      <Project>{538E7A51-1F2D-4243-9988-716B362B2545}</Project>
+      <Name>Jxmstc.Sop.DbClient.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Thumbs.db" />
+    <None Include="image\Tab-images\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Backupfolder\" />
+    <Folder Include="extraTools\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7857</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

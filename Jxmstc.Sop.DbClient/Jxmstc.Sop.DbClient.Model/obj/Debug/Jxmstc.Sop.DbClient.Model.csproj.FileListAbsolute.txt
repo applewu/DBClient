@@ -1,0 +1,10 @@
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.Model\bin\Debug\Jxmstc.Sop.DbClient.Model.dll
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.Model\bin\Debug\Jxmstc.Sop.DbClient.Model.pdb
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.Model\obj\Debug\Jxmstc.Sop.DbClient.Model.dll
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.Model\obj\Debug\Jxmstc.Sop.DbClient.Model.pdb
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.Model\bin\Debug\Jxmstc.Sop.DbClient.Model.dll
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.Model\bin\Debug\Jxmstc.Sop.DbClient.Model.pdb
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.Model\obj\Debug\Jxmstc.Sop.DbClient.Model.dll
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.Model\obj\Debug\Jxmstc.Sop.DbClient.Model.pdb

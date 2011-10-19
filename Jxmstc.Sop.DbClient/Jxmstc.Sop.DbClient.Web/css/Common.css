@@ -1,0 +1,79 @@
+/*-------------- 全局样式------------------------ */
+*{ margin:0 auto; padding:0;}
+
+body{ background:#fff; font-family:'宋体', Arial, Helvetica, sans-serif;}
+
+form{margin:0;padding:0;}                    
+
+img{border:0;}                               
+
+ul,ol,li{ margin:0; padding:0;}
+
+a{color:#000000; text-decoration:none;}
+
+a:hover{color:#000000; text-decoration:none;}
+
+body,td,a,p,select,input,textarea{font-size:12px; color:#000000;}
+
+h1,h2,h3,h4,h5,h6{ font-size:12px; margin:0; padding:0;}
+
+
+/*------------------表格样式------------------------*/
+.ComTable{ height:32px; line-height:32px; background:url(/Images/list_bg_42.jpg); margin:10px; border-bottom:1px solid #6371ab; border-right:1px solid #6371ab;}
+
+.ComTable td{padding-left:6px}
+ .txtleft
+        {
+            text-align: right;
+        }
+ .txtright
+        {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+
+
+/*----------------- 各种按钮样式 -------------------*/
+.BlueButton{ width:71px; height:24px; line-height:24px; background:url(/Images/blue.gif) no-repeat; text-align:center; margin-left:8px; border:0; cursor:hand;}
+.BlueButton2{width:100px; height:24px; line-height:24px; background:url(/Images/blue2.gif) no-repeat;text-align:center; margin-left:8px;border:0; cursor:hand;}
+.WhiteButton{ width:71px; height:24px; line-height:24px; background:url(/Images/white.jpg) no-repeat;text-align:center; margin-left:8px;border:0; cursor:hand;}
+
+
+/*------------------按钮的背景样式-----------------------*/
+.bottom{ background:url(images/bottom_21.jpg) repeat-x; text-align:center;}
+
+
+
+/*------------------头部样式 -----------------------*/
+.top_bg{ background:url(/Images/top_02.jpg) repeat-x;}
+
+.logo{ background:url(/Images/top_03.jpg) no-repeat 15px 0px;}
+
+.out{ background:url(/Images/icon_03.jpg) no-repeat 10px 15px; padding:0px 0px 5px 14px;}
+
+.out a:link,.out a:visited,.out a:hover{ color:#FFFFFF; font-weight:bold;  float:left;}
+
+.help{ float:right; color:#FFFFFF;  width:110px; height:24px; background:url(/Images/icon_07.gif) no-repeat left; padding-left:22px; padding-top:7px;}
+
+.help a:link,.help a:visited,.help a:hover{ color:#FFFFFF;}
+
+.name{ float:right; color:#FFFFFF;  height:24px; background:url(/Images/icon_10.gif) no-repeat left; padding-left:22px; padding-top:5px; margin-right:25px;}
+
+.ViewCode {
+ clear:both;
+ border:1px solid #FFB900;background:#FFFFCC;margin:3px;padding:3px;
+}
+
+.ViewCode h6 {color:#00f;}
+
+/*网格表格*/
+.grid_table{border-left:solid 1px #CCCCCC;border-top:solid 1px #CCCCCC;}
+.grid_table td,.grid_table th{border-right:solid 1px #CCCCCC;border-bottom:solid 1px #cccccc;}
+.lnkbtn{font-size: 12px; color: Red; font-weight: bold;}
+/*****定义GridView样式*********/
+.Grid
+{width: 90%;text-align: center;}
+
+/* top样式 */
+.top_bg{ background:url(/images/top_bg.jpg) repeat-x; height:70px;}

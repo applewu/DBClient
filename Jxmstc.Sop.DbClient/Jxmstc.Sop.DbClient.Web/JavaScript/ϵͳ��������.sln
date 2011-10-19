@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thickBoxDemo", "thickBoxDemo\thickBoxDemo.csproj", "{DC4B63DC-8236-4D99-978C-B4615AAEBE98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jqGridDemo", "jqGridDemo\jqGridDemo.csproj", "{49939467-A3F7-49B8-BB0A-CC419BFA09FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC4B63DC-8236-4D99-978C-B4615AAEBE98}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{DC4B63DC-8236-4D99-978C-B4615AAEBE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4B63DC-8236-4D99-978C-B4615AAEBE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4B63DC-8236-4D99-978C-B4615AAEBE98}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DC4B63DC-8236-4D99-978C-B4615AAEBE98}.Release|.NET.ActiveCfg = Release|Any CPU
+		{DC4B63DC-8236-4D99-978C-B4615AAEBE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4B63DC-8236-4D99-978C-B4615AAEBE98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4B63DC-8236-4D99-978C-B4615AAEBE98}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{49939467-A3F7-49B8-BB0A-CC419BFA09FC}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{49939467-A3F7-49B8-BB0A-CC419BFA09FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49939467-A3F7-49B8-BB0A-CC419BFA09FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49939467-A3F7-49B8-BB0A-CC419BFA09FC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{49939467-A3F7-49B8-BB0A-CC419BFA09FC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{49939467-A3F7-49B8-BB0A-CC419BFA09FC}.Release|.NET.ActiveCfg = Release|Any CPU
+		{49939467-A3F7-49B8-BB0A-CC419BFA09FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49939467-A3F7-49B8-BB0A-CC419BFA09FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49939467-A3F7-49B8-BB0A-CC419BFA09FC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{49939467-A3F7-49B8-BB0A-CC419BFA09FC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

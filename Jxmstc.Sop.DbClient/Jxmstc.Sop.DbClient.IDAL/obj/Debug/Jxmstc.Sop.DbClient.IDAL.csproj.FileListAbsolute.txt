@@ -1,0 +1,14 @@
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\bin\Debug\Jxmstc.Sop.DbClient.IDAL.dll
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\bin\Debug\Jxmstc.Sop.DbClient.IDAL.pdb
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\bin\Debug\Jxmstc.Sop.DbClient.Model.dll
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\bin\Debug\Jxmstc.Sop.DbClient.Model.pdb
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\obj\Debug\Jxmstc.Sop.DbClient.IDAL.dll
+E:\aDev\Code\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\obj\Debug\Jxmstc.Sop.DbClient.IDAL.pdb
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\bin\Debug\Jxmstc.Sop.DbClient.IDAL.dll
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\bin\Debug\Jxmstc.Sop.DbClient.IDAL.pdb
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\bin\Debug\Jxmstc.Sop.DbClient.Model.dll
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\bin\Debug\Jxmstc.Sop.DbClient.Model.pdb
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\obj\Debug\Jxmstc.Sop.DbClient.IDAL.dll
+D:\[Dev]\Jxmstc.Sop.DbClient\Jxmstc.Sop.DbClient.IDAL\obj\Debug\Jxmstc.Sop.DbClient.IDAL.pdb

@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jxmstc.Sop.DbClient.Utility", "Jxmstc.Sop.DbClient.Utility\Jxmstc.Sop.DbClient.Utility.csproj", "{538E7A51-1F2D-4243-9988-716B362B2545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jxmstc.Sop.DbClient.Web", "Jxmstc.Sop.DbClient.Web\Jxmstc.Sop.DbClient.Web.csproj", "{CE7E23D1-C097-4892-A502-AD20C8D4EC25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jxmstc.Sop.DbClient.Model", "Jxmstc.Sop.DbClient.Model\Jxmstc.Sop.DbClient.Model.csproj", "{3DF501B1-08E1-4DF4-80BB-1FCA1611A369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jxmstc.Sop.DbClient.IDAL", "Jxmstc.Sop.DbClient.IDAL\Jxmstc.Sop.DbClient.IDAL.csproj", "{53BC4AEE-BCFA-4ABF-AC61-B4436B7FC94C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jxmstc.Sop.DbClient.mysqlDAL", "Jxmstc.Sop.DbClient.mysqlDAL\Jxmstc.Sop.DbClient.mysqlDAL.csproj", "{4495A781-0613-4821-9061-533CB37FA74B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jxmstc.Sop.DbClient.sqlserverDAL", "Jxmstc.Sop.DbClient.sqlserverDAL\Jxmstc.Sop.DbClient.sqlserverDAL.csproj", "{4BA70B6F-637F-4DA0-88F7-E2FE60085D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jxmstc.Sop.DbClient.DALFactory", "Jxmstc.Sop.DbClient.DALFactory\Jxmstc.Sop.DbClient.DALFactory.csproj", "{933409C9-6F7B-4235-B23B-EAAFF4CAA051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jxmstc.Sop.DbClient.BLL", "Jxmstc.Sop.DbClient.BLL\Jxmstc.Sop.DbClient.BLL.csproj", "{39AF87A7-7C7D-4F59-A519-690CF279F69F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.jxmstc.com:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Jxmstc.Sop.DbClient.Utility\\Jxmstc.Sop.DbClient.Utility.csproj
+		SccProjectName1 = Jxmstc.Sop.DbClient.Utility
+		SccLocalPath1 = Jxmstc.Sop.DbClient.Utility
+		SccProjectUniqueName2 = Jxmstc.Sop.DbClient.Web\\Jxmstc.Sop.DbClient.Web.csproj
+		SccProjectName2 = Jxmstc.Sop.DbClient.Web
+		SccLocalPath2 = Jxmstc.Sop.DbClient.Web
+		SccProjectUniqueName3 = Jxmstc.Sop.DbClient.Model\\Jxmstc.Sop.DbClient.Model.csproj
+		SccProjectName3 = Jxmstc.Sop.DbClient.Model
+		SccLocalPath3 = Jxmstc.Sop.DbClient.Model
+		SccProjectUniqueName4 = Jxmstc.Sop.DbClient.Test\\Jxmstc.Sop.DbClient.Test.csproj
+		SccProjectName4 = Jxmstc.Sop.DbClient.Test
+		SccLocalPath4 = Jxmstc.Sop.DbClient.Test
+		SccProjectUniqueName5 = Jxmstc.Sop.DbClient.IDAL\\Jxmstc.Sop.DbClient.IDAL.csproj
+		SccProjectName5 = Jxmstc.Sop.DbClient.IDAL
+		SccLocalPath5 = Jxmstc.Sop.DbClient.IDAL
+		SccProjectUniqueName6 = Jxmstc.Sop.DbClient.mysqlDAL\\Jxmstc.Sop.DbClient.mysqlDAL.csproj
+		SccProjectName6 = Jxmstc.Sop.DbClient.mysqlDAL
+		SccLocalPath6 = Jxmstc.Sop.DbClient.mysqlDAL
+		SccProjectUniqueName7 = Jxmstc.Sop.DbClient.sqlserverDAL\\Jxmstc.Sop.DbClient.sqlserverDAL.csproj
+		SccProjectName7 = Jxmstc.Sop.DbClient.sqlserverDAL
+		SccLocalPath7 = Jxmstc.Sop.DbClient.sqlserverDAL
+		SccProjectUniqueName8 = Jxmstc.Sop.DbClient.DALFactory\\Jxmstc.Sop.DbClient.DALFactory.csproj
+		SccProjectName8 = Jxmstc.Sop.DbClient.DALFactory
+		SccLocalPath8 = Jxmstc.Sop.DbClient.DALFactory
+		SccProjectUniqueName9 = Jxmstc.Sop.DbClient.BLL\\Jxmstc.Sop.DbClient.BLL.csproj
+		SccProjectName9 = Jxmstc.Sop.DbClient.BLL
+		SccLocalPath9 = Jxmstc.Sop.DbClient.BLL
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{538E7A51-1F2D-4243-9988-716B362B2545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538E7A51-1F2D-4243-9988-716B362B2545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538E7A51-1F2D-4243-9988-716B362B2545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538E7A51-1F2D-4243-9988-716B362B2545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7E23D1-C097-4892-A502-AD20C8D4EC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7E23D1-C097-4892-A502-AD20C8D4EC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7E23D1-C097-4892-A502-AD20C8D4EC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7E23D1-C097-4892-A502-AD20C8D4EC25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF501B1-08E1-4DF4-80BB-1FCA1611A369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF501B1-08E1-4DF4-80BB-1FCA1611A369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF501B1-08E1-4DF4-80BB-1FCA1611A369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF501B1-08E1-4DF4-80BB-1FCA1611A369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BC4AEE-BCFA-4ABF-AC61-B4436B7FC94C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BC4AEE-BCFA-4ABF-AC61-B4436B7FC94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BC4AEE-BCFA-4ABF-AC61-B4436B7FC94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BC4AEE-BCFA-4ABF-AC61-B4436B7FC94C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4495A781-0613-4821-9061-533CB37FA74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4495A781-0613-4821-9061-533CB37FA74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4495A781-0613-4821-9061-533CB37FA74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4495A781-0613-4821-9061-533CB37FA74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA70B6F-637F-4DA0-88F7-E2FE60085D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA70B6F-637F-4DA0-88F7-E2FE60085D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA70B6F-637F-4DA0-88F7-E2FE60085D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA70B6F-637F-4DA0-88F7-E2FE60085D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933409C9-6F7B-4235-B23B-EAAFF4CAA051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933409C9-6F7B-4235-B23B-EAAFF4CAA051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933409C9-6F7B-4235-B23B-EAAFF4CAA051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933409C9-6F7B-4235-B23B-EAAFF4CAA051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39AF87A7-7C7D-4F59-A519-690CF279F69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39AF87A7-7C7D-4F59-A519-690CF279F69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39AF87A7-7C7D-4F59-A519-690CF279F69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39AF87A7-7C7D-4F59-A519-690CF279F69F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
